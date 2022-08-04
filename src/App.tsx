@@ -11,7 +11,7 @@ function App() {
 
       <Routes>
         <Route path="*" element={<h1>Page not found</h1>} />
-        <Route index element={<Navigate to='/home'/>} />
+        <Route index element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/home/:itemId" element={<ProductItem />} />
