@@ -25,6 +25,7 @@ function Header() {
           <li>
             <Link to="basket">Basket</Link>
           </li>
+          <input type="search" />
         </ul>
       </nav>
     </header>

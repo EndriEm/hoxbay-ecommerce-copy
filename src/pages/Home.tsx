@@ -20,17 +20,17 @@ export function Home() {
   }, []);
 
   return (
-    <div>
+    
       <ul className="products-container__list">
         {products.map((item) => (
           <li className="product-item">
-            <Link to={`/home/${item.id}`}>
+            <Link to={`/product/${item.id}`}>
               <img src={item.image}></img>
               <h3>{item.title}</h3>
             </Link>
           </li>
         ))}
       </ul>
-    </div>
+   
   );
 }
